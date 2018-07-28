@@ -1,0 +1,237 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1200px){
+
+	header .top-line-mnu .top-menu li{
+		margin-right: 30px;
+	}
+
+	header .top-line-mnu .top-menu span{
+		right: -17px;
+	}
+
+	header .top-line-mnu .btn-top-wrap a{
+		font-size: 14px;
+	}
+	
+	header .top-below-line .adr p {
+		font-size:17px;
+	}
+	
+	.right-block form span {
+		font-size:17px;
+	}
+	
+	footer .politic a, footer .support p {
+		font-size:13px;
+	}
+}
+
+@media only screen and (max-width : 992px){
+	.form-wrap form{
+		margin: 20px auto 0;
+	}
+	header {
+		padding-bottom: 40px;
+	}
+	.left-block .price-block {
+		left:500px;
+	}
+	.right-block .form-wrap {
+	
+	}
+	.about-wrap .aw-item p {
+		font-size:14px;
+	}
+	.about-wrap .aw-item p span {
+		font-size:25px;
+	}		
+	#reviews #leftControl {
+		left: 0px;
+	}
+	#reviews #rightControl {
+		right: 0px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top-line-mnu{
+		display: none !important;
+	}
+	.title-descr-wrap h1{
+		margin: 0 0 25px 0;
+	}
+	.top-below-line .adr{
+		text-align: center;
+	}
+	.left-block {
+		background-position: center;
+	}
+	.left-block .price-block{
+		left: 50%;
+	}
+	.left-block .sale {
+		display:none;
+	}
+	.right-block .form-wrap {
+	
+	}
+	#reviews #leftControl {
+		left: 40px;
+	}
+	#reviews #rightControl {
+		right: 40px;
+	}
+	#reviews .text-block .title {
+		font-size:18px;
+	}
+	#reviews .text-block .star-wrap-one, #reviews .text-block .star-wrap-three {
+		display:none;
+	}
+	#reviews .text-block .text {
+		font-size:16px;
+		line-height:18px;
+	}
+	#countdown_dashboard2{
+		display:none;
+	}
+	footer .politic a, footer .support p {
+		text-align:center;
+		display:block;
+	}
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*.left-block{
+		background: url("../img/320.jpg") no-repeat center center;
+	}*/
+
+	.left-block_1{
+		background: url("../img/320.png") no-repeat center center;
+		position: relative;
+    height: 636px;
+    background-size: cover;
+	}
+	.left-block .adv{
+		display: none;
+	}
+	.left-block .price-block .price span, .left-block .price-block .price p{
+		font-size:30px;
+	}
+	#recall {
+		width:270px;
+	}
+	#recall input{
+		width:240px;
+	}
+	#reviews #leftControl {
+		left: 10px;
+		top:-50px;
+	}
+	#reviews #rightControl {
+		right: 10px;
+		top:-50px;
+	}
+	#reviews .text-block .title {
+		font-size:16px;
+	}
+	#reviews .text-block .text {
+		font-size:14px;
+		line-height:16px;
+	}
+	footer .copyright-wrap, footer .foot-tel-wrap p, footer .politic, footer .btn-footer-wrap{
+		text-align: center;
+	}
+	footer .foot-tel-wrap p{
+		margin-top: 20px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.left-block .price-block{
+		left: 15%;
+	}
+	.top-below-line .adr p {
+		font-size:17px;
+	}
+	.title-descr-wrap h1 {
+		font-size:17px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	#reviews #rightControl{
+		    top: 40px;
+	}
+	#reviews #leftControl{
+		top: 40px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.left-block_1{
+		    height: 300px;
+	}
+}
